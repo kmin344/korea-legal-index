@@ -1,0 +1,24 @@
+{
+  "name": "korea-law-index-poc",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "PoC: agent-native, keyless search index of Korean primary law (법령) via the law.go.kr DRF Open API.",
+  "bin": {
+    "korea-law": "src/cli.mjs"
+  },
+  "scripts": {
+    "search": "node src/cli.mjs search",
+    "get": "node src/cli.mjs get",
+    "serve": "node src/server.mjs",
+    "mcp": "node src/mcp.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.7"
+  }
+}

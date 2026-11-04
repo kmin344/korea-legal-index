@@ -1,0 +1,47 @@
+Korea Legal Index
+=================
+
+Data source
+-----------
+This software reads Korean statutory law through the official open data API of
+the National Law Information Center (국가법령정보, 법제처), served at
+law.go.kr and open.law.go.kr.
+
+This repository bundles no legal text. The software fetches it live at run time.
+The MIT license covers only this software, not the legal data.
+
+Reuse terms of the data (verified at the official source on 2026-10-24,
+https://www.law.go.kr/lawPetitionForm.do?menuId=13&subMenuId=79):
+- Korean statutes and court decisions (법령, 판례, etc.) are works not protected
+  by copyright under Copyright Act Article 7 (저작권법 제7조). You may use them
+  freely, with no separate permission.
+- The Public Data Act (공공데이터의 제공 및 이용 활성화에 관한 법률) guarantees
+  free use of this legal information, commercial use included.
+- The center states that it actively supports individuals and organizations that
+  link (연계) the legal information into their own services.
+
+Conditions you must still honor:
+- Do not alter or forge the legal text, and do not present altered text as
+  authoritative. Preserve the verbatim text and link to the official source.
+- Do not harm the center's service (for example, through excessive request
+  volume). Use the API within its rate limits and in good faith.
+- Do not include data that carries third-party rights or non-disclosure
+  restrictions.
+
+Attribution
+-----------
+Attribution is good practice, not a copyright condition for non-protected works.
+When you display legal text obtained through this software, name the source as
+국가법령정보센터 (National Law Information Center) and link to the official
+source URL that each record carries.
+
+Not legal advice
+----------------
+This software provides sources, not legal advice. Verify every result against
+the official source before you rely on it.
+
+No affiliation
+--------------
+This project is an independent work. It is not affiliated with, authorized by,
+or endorsed by Firecrawl. The names "Firecrawl" and "Alexandria" appear only to
+describe the commercial product that this project's design analysis studied.

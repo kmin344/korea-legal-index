@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Secrets and local config
+.env
+.env.*
+*.key
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+
+# Local planning artifacts (not for publication)
+resume.md

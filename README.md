@@ -56,6 +56,4 @@ This project provides sources, not legal advice.
 
 ## No affiliation
 
-This project is independent. It is not affiliated with or endorsed by Firecrawl.
-The names "Firecrawl" and "Alexandria" describe the product that the design
-analysis studied.
+This project is independent.

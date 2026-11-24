@@ -12,7 +12,8 @@
     "search": "node src/cli.mjs search",
     "get": "node src/cli.mjs get",
     "serve": "node src/server.mjs",
-    "mcp": "node src/mcp.mjs"
+    "mcp": "node src/mcp.mjs",
+    "test": "node --test \"tests/*.test.mjs\""
   },
   "engines": {
     "node": ">=18"

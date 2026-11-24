@@ -1,7 +1,7 @@
 # Build plan — Korean primary-law index
 
 An agent-native, free, citation-linked index of Korean primary law. Grounded
-in the reverse-engineered gov-index contract and the Korea supply map.
+in the Korea supply map.
 
 ## 1. Scope (MVP)
 
@@ -23,7 +23,7 @@ at the ingestion boundary, with a format-aware parser.
 
 ## 3. Data model (`LawRecord`)
 
-Extends the gov-index model with the two fields Korea needs: effective date and
+Each record has the fields of a normalized legal text. It also has the two fields Korea needs: effective date and
 status.
 
 - `id` — canonical ID, for example `law:<법령ID>:조:<조번호>`.
@@ -41,8 +41,7 @@ status.
 
 ## 4. Citation graph
 
-This is the real work, because the gov-index CLI proved the graph is
-server-side, not client-side.
+This is the real work. The graph lives on the server, not in the client.
 
 - Parse 조문 본문 for references: `제750조`, `「민법」 제750조`,
   `같은 법 제○조`, and 위임 relations (법령 ↔ 시행령 ↔ 시행규칙).

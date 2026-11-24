@@ -9,13 +9,10 @@ Date: 2026-10-22
 
 ## Contents
 
-1. [01-gov-index-reverse-engineering.md](01-gov-index-reverse-engineering.md)
-   — How Firecrawl's gov-index works. The API contract, reverse-engineered
-   from the shipped `firecrawl-cli@1.26.20` package with REA.
-2. [02-korea-market-research.md](02-korea-market-research.md)
+1. [01-korea-market-research.md](01-korea-market-research.md)
    — The Korean supply side: the official Open API, case-law limits, the
    competitors, prior art, and the open risks.
-3. [03-build-plan.md](03-build-plan.md)
+2. [02-build-plan.md](02-build-plan.md)
    — The MVP architecture, data model, citation graph, serving surface, and
    phases.
 
